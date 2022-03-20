@@ -1,0 +1,85 @@
+:root,body{
+  margin: 0px;
+  padding:0px;
+}
+.App {
+  text-align: center;
+  margin: 0px;
+  background-color: darkcyan;
+  }
+
+h3,h4,p{
+  margin: 5px;
+  padding: 0;
+}
+
+.home{
+  min-width: 100vw;
+
+min-height: 100vh;
+  background-color: darkcyan;
+  padding-top: 50px;
+  position: absolute;
+  top:50px;
+}
+.container {
+  margin: 0px;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  /* width: 20em; */
+  height: 2em;
+}
+
+.textarea {
+  height: 10em;
+}
+
+.card {
+  flex:1 1 auto;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin: 1em;
+  padding: 1em;
+  /* display: flex;
+  flex-direction: column; */
+  height: 25vh;
+  width: 20vw;
+}
+
+img{
+  height: 10vh;
+  width: 10vh;
+}
+
+.popUp{
+  position: fixed;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 200;
+  background-color: darkslategray;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: auto;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.content{
+ 
+}
+.nav{
+  position: absolute;
+  width: 100%;
+  height:  10vh;
+  background-color: antiquewhite;
+}
+
+button{cursor: pointer;}

@@ -15,7 +15,7 @@ mongoose.connect(db, {
     if (err) throw err
     console.log('Data Base Connected .....')
 })  
- 
+  
 app.use('/contact',require("./routes/contact"))
 // app.post("/insert", async (req, res) => {
 //     const contact = new ContactModel({ contactName: req.body.contactName, contactNumber: req.body.contactNumber, contactDescription: req.body.contactDescription });
