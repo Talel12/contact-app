@@ -49,7 +49,7 @@ input {
   flex-direction: column; */
   height: 250px;
   /* min-width: 20vw; */
-  max-width: 350px;
+  max-width: 25vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +83,7 @@ img{
 
 .popUp{
   position: fixed;
-  top:0px;
+  top:0;
   width: 100vw;
   height: 100vh;
   z-index: 200;
@@ -92,9 +92,8 @@ img{
   flex-direction: column;
   flex-wrap: wrap;
   padding: auto;
-  padding-top: 40px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   color: white;
 }
 
@@ -136,53 +135,4 @@ border-radius: 10px;}
 .borderNone{
   border: none;
   width: 100px;
-}
-
-
-
-/* ===== popUp ======= */
-
-.boutton{
-display:flex; 
-}
-.add{
-  background-color: rgb(6, 44, 100);
-  color: #ddd;
-}
-.cancel{
-  background-color: rgb(243, 21, 21);
-  color: #ddd;
-}
-.save{
-  background-color: rgb(6, 44, 100);
-  color: #ddd;
-}
-.cancl{
-  background-color: rgb(243, 21, 21);
-  color: #ddd;
-}
-
-label{
-  margin-bottom: 5px;
-}
-
-input{
-  margin-bottom: 15px;
-}
-.popUpTitle{
-  margin-bottom: 50px;
-  font-size: 50px;
-}
-.title{
-  margin-bottom: 50px;
-  font-size: 50px;
-}
-.cont{
-  margin-bottom: 50px;
-  font-size: 50px;
-}
-.search{
-  font-size: 30px;
-  font-style:oblique;
-
 }
