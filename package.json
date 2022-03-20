@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "backend": "nodemon server.js",
+    "dev": "concurrently \"npm run backend\" \"npm run client\""
+  },
+  "author": "Talel Ben Belgacem",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^6.2.7",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemon": "^2.0.15"
+  }
+}
